@@ -155,12 +155,12 @@ def buy():
         payment_status=False
         while True:
             if payment_status:
-                print("Payment successful")
+                print("Payment successful, NiuBi...")
                 break
             try:
                 if driver.find_element_by_class_name('sixDigitPassword'):
                     #Input your password
-                    print("start input password")
+                    print("start input password...")
                     driver.find_element_by_class_name('sixDigitPassword').send_keys(1)
                     driver.find_element_by_class_name('sixDigitPassword').send_keys(1)
                     driver.find_element_by_class_name('sixDigitPassword').send_keys(1)
@@ -174,7 +174,7 @@ def buy():
                     print("Loading payment page...")
             except Exception as e:
                 print(e)
-                print("GG,GG,GG,Payment failed")
+                print("GG,GG,GG,Payment failed...")
 
 
 
