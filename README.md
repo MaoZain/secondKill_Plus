@@ -8,4 +8,7 @@ click button.
 
 # Usage
 1. Clone this project to local.
-2. Obey the rules commented at the beginning.
+2. python3 env
+3. pip install selenium
+4. install chromedriver in your device
+5. Obey the rules commented at the beginning.
