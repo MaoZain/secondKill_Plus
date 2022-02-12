@@ -10,5 +10,6 @@ click button.
 1. Clone this project to local.
 2. python3 env
 3. pip install selenium
-4. install chromedriver in your device
-5. Obey the rules commented at the beginning.
+4. check your chrome version "chrome://version/"
+5. install chromedriver (same version with your chrome) in your device  https://chromedriver.chromium.org/downloads  
+6. Obey the rules commented at the beginning.
